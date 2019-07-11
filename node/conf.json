@@ -1,0 +1,16 @@
+{
+  "handler": {
+    "node_path": "/node/client/",
+    "executable_path": "/node/client/client",
+    "http_host": "0.0.0.0",
+    "http_port": 3000
+  },
+  "collecting_data_service": {
+    "events_monitor_path": "/node/monitor",	
+    "allow_send_events": false,
+    "allow_send_logs": false,
+    "host": "206.189.84.116",
+    "port": 3030
+  }
+}
+ 

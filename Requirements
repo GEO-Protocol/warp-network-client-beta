@@ -1,0 +1,4 @@
+1. `node` directory must contains real-world node layout.
+2. /node/client/client must be executable.
+3. /node/interface must be executable.
+4. /node/monitor must be executable.

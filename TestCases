@@ -1,0 +1,7 @@
+
+# Test raw node start:
+
+> cd /node/client/
+> ./client
+
+Node should be successfully started.

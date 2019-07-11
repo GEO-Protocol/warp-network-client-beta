@@ -1,0 +1,27 @@
+{
+  "addresses": [
+    {
+      "type": "ipv4",
+      "address": "x.x.x.x:2000"
+    }
+  ],
+  "observers": [
+    {
+      "type": "ipv4", 
+      "address": "68.183.146.232:4000"
+    },
+    {
+      "type": "ipv4", 
+      "address": "46.101.51.158:4000"
+    },
+    {
+      "type": "ipv4", 
+      "address": "206.189.84.116:4000"
+    },
+    {
+      "type": "ipv4", 
+      "address": "159.89.115.33:4000"
+    }
+  ],
+  "equivalents_registry_address": "eth"
+}
