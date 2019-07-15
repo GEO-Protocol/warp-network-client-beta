@@ -12,10 +12,10 @@ fi
 sed -i "s/x.x.x.x/$1/g" /node/client/conf.json
 
 # Run node and HTTP API of the node.
-# `seep 2` is neede for proper node initialization.
+# `seep 10` is neede for proper node initialization.
 ./interface start > /dev/null
 if [ $? -eq 0 ]; then
-    sleep 2
+    sleep 10
     
     # Run HTTP interface
     ./interface http &
