@@ -23,5 +23,17 @@
       "address": "159.89.115.33:4000"
     }
   ],
-  "equivalents_registry_address": "eth"
+  "equivalents_registry_address": "eth",
+  "event_files": [
+    {
+      "file": "visualization.fifo",
+      "blocked": false,
+      "events": [0,1,2,3]
+    },
+    {
+      "file": "events.fifo",
+      "blocked": false,
+      "events": [4]
+    }
+  ]
 }

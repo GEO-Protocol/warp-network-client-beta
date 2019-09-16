@@ -6,11 +6,11 @@
     "http_port": 3000
   },
   "collecting_data_service": {
-    "events_monitor_path": "/node/monitor",	
-    "allow_send_events": false,
-    "allow_send_logs": false,
-    "host": "206.189.84.116",
-    "port": 3030
+    "events_monitor_path": "/node/distribution/events-monitor",
+    "allow_send_events": true,
+    "events_file_name": "visualization.fifo",
+    "url": "https://geoexplorer.io",
+    "allow_send_logs": false
   }
 }
  
